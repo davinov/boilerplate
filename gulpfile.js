@@ -1,2 +1,2 @@
-require('coffee-script/register');
-require('require-dir')(__dirname + '/tools/build/tasks');
+gulp = require('gulp');
+plug = require('gulp-plug')(gulp, __dirname + '/utils/build/tasks');

@@ -1,13 +1,13 @@
 ###*
   @ngdoc module
-  @name boilerplate.common
-  @module boilerplate.common
+  @name boilerplate.utils
+  @module boilerplate.utils
   @description
 
   This module contains helpers and global configuration required by your app
 ###
 
-angular.module '%module%.common', [
+angular.module '%module%.utils', [
   'ng'
   'ui.router'
   'pascalprecht.translate'

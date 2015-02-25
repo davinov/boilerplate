@@ -8,6 +8,7 @@
 ###
 
 angular.module '%module%', [
-  '%module%.common'
+  'ngMaterial'
+  '%module%.utils'
   '%module%.landing'
 ]
